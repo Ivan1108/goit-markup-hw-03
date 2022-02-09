@@ -1,0 +1,221 @@
+:root {
+  --primary-text-color: #fff;
+  --tittle-text-color: #000;
+  --description-text-color: #757575;
+  --background-button-color: #f5f4fa;
+  --accent-color-text: #2196f3;
+  --main-color-text: #212121;
+}
+body {
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  color: var(--main-color-text);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo2 {
+  color: var(--main-color-text);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.header-link {
+  color: var(--main-color-text);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.current {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+.button-tittle {
+  visibility: hidden;
+}
+.button {
+  size: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  padding: 6px 22px 6px 22px;
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color-text);
+}
+.img-tittle {
+  color: var(--tittle-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.img-descr {
+  color: var(--description-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  color: var(--primary-text-color);
+}
+.footer-googlelink {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-googlelink:hover,
+.footer-googlelink:focus {
+  color: var(--accent-color-text);
+}
+
+.footer-info {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.footer-info:hover,
+.footer-info:focus {
+  color: var(--accent-color-text);
+}
+footer {
+  background-color: #2f303a;
+}
+.bg-container {
+  background-color: #2f303a;
+}
+.button-studio {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px, 32px, 10px, 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+.main-title {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.subtitles-studio {
+  color: var(--main-color-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.description-studio {
+  color: var(--description-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  visibility: hidden;
+}
+.img-title {
+  color: var(--main-color-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.img-names {
+  color: var(--main-color-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.img-activity {
+  color: var(--description-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
