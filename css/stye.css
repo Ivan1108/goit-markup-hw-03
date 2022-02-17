@@ -15,9 +15,8 @@ body {
 ul{
   margin-top: 0px;
   margin-bottom: 0px;
-}
-ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 a {
@@ -82,6 +81,11 @@ a {
 }
 .team-fotos-list:not(:last-child){
   margin-right: 30px;
+}
+.team-fotos-list{
+  background-color: var(--primary-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .header-link {
   color: var(--main-color-text);
@@ -163,7 +167,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-
 }
 .images-portfolio{
   margin-bottom: 30px;
@@ -190,13 +193,16 @@ a {
 .footer-logo {
   color: var(--primary-text-color);
 }
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-googlelink {
   color: var(--primary-text-color);
   text-decoration: none;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding-bottom: 9px;
 }
 .footer-googlelink:hover,
 .footer-googlelink:focus {
@@ -208,7 +214,9 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  padding-bottom: 9px;
+}
+.footer-item:not(:last-child){
+  margin-bottom: 9px;
 }
 .footer-info:hover,
 .footer-info:focus {
@@ -286,6 +294,12 @@ footer {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+
+.teams-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 .img-activity {
   color: var(--description-text-color);
   font-size: 16px;
@@ -317,4 +331,14 @@ footer {
 }
 .container-content{
   padding: 20px 24px;
+}
+.address{
+  margin-top: 20px;
+}
+.footer-des{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 0px;
 }
